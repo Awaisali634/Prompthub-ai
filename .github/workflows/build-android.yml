@@ -24,7 +24,10 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-
+        - name: Check Java version
+        run: |
+          java -version
+          javac -version
       - name: Extract project ZIP
         run: |
           mkdir -p extracted
