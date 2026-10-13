@@ -1,0 +1,6 @@
+{
+  "name": "PromptHub AI",
+  "description": "AI-powered tools for creating image prompts, video prompts, scripts, and trending content ideas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
