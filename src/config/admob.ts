@@ -20,9 +20,9 @@ export const GOOGLE_ADMOB_OFFICIAL_TEST_IDS = {
 };
 
 // Check if test mode is active (default is true unless explicitly set to production)
-const isTestMode = 
-  (typeof import.meta !== 'undefined' && import.meta.env?.VITE_ADMOB_ENV !== 'production') ||
-  process.env.NODE_ENV !== 'production';
+const isTestMode =
+(typeof import.meta !== 'undefined' &&
+import.meta.env?.VITE_ADMOB_ENV !== 'production');
 
 export const ADMOB_CONFIG = {
   // Toggle ads globally
